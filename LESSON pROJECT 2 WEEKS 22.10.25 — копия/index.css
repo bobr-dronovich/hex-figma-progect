@@ -1,0 +1,245 @@
+@font-face {
+    font-family: main;
+    src: url(fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: main;
+}
+
+#navigation {
+    display: flex;
+    background-color: pink;
+    padding: 0px 50px;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    
+
+}
+
+#logo1 {
+    margin-right: 73px;
+    height: 26px;
+}
+
+.navButton {
+    padding: 33px;
+
+}
+
+#SMBlock {
+    display: flex ;
+    height: 100%;
+    align-items: center;
+    gap: 34px;
+    color: white
+
+
+    & img {
+        height: 17px;
+    }
+.naviButton {
+    color: #ffffff;
+    gap: 55px;
+}
+}
+#headerButton{
+    background-color: #ffd1fd;
+    padding: 18px;
+    display: inline-block;
+    color: #f057f0;
+    width: 100px;
+    text-align: center;
+    
+}
+#main{
+    color: white;
+    height: calc(100vh - 85px);
+    background-image: url("photos/6da6c3e50ef0427f95f95d6c279b57dc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 83px;
+    
+    
+
+    & * {
+        margin-bottom: 20px;
+    }
+}
+.post{
+    font-family: main;
+}
+
+#lilText span{
+    color: yellow;
+}
+#block{
+    background-color: yellow;
+    padding: 18px;
+    display: inline-block;
+    color: black;
+    width: 100px;
+    text-align: center;
+}
+#downMain{
+    padding-top: 75px;
+    padding-left: 83px;
+    width: 733px;
+    display: flex;
+    min-height: 724px;
+    & * {
+        margin-bottom: 20px;
+    }
+    padding-bottom: 100px;
+}
+#downMainInfoPhoto{
+    padding-top: 32px;
+    border-style: solid;
+    border-color: rgb(238, 238, 238);
+    border-width: 1px;
+}
+img{
+    width: 669px;
+    height: 352px;
+    display: flex-center;
+    flex-direction: column;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+#blockInsideInfo{
+    padding-left: 32px;
+}
+span2{
+    color: blue;
+}
+#DownLeftInfoBlock{
+    padding-left: 765px;
+    padding-top: 32px;
+    border-style: solid;
+    border-color: rgb(238, 238, 238);
+    border-width: 1px;
+    
+}
+#DownLeftInfo{
+    margin-left: 25px;
+    margin-top: -20px;
+    
+    
+} 
+#AllPosts h1{
+    white-space: nowrap; 
+    display: inline-block;
+    padding: 0; /* Removes any margin between the blocks */
+    margin-top: 50px;
+
+}
+#lilBlockWithInfo{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 16px;
+    padding-right: 125px;
+    white-space: nowrap; 
+    display: inline-block; 
+
+
+}
+span3{
+        color: blue;
+}
+
+#lilBlockWithInfo2{
+    background-color: violet;
+    display: flex;
+    padding-left: px;
+    padding: 16px;
+    padding-right: 125px;
+    white-space: nowrap; 
+    display: inline-block;
+} 
+#lilBlockWithInfo3{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        padding-left: px;
+        padding: 16px;
+        padding-right: 125px;
+        white-space: nowrap; 
+        display: inline-block; 
+}
+#lilBlockWithInfo4{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-left: px;
+    padding: 16px;
+    padding-right: 125px;
+    white-space: nowrap; 
+    display: inline-block; 
+}
+#lilBlockWithInfo,
+#lilBlockWithInfo2,
+#lilBlockWithInfo3,
+#lilBlockWithInfo4 {
+    margin: 0; 
+}
+
+#MoreDownBlock{
+    min-height: 300px;
+    margin-left: 83px;
+    margin-right: 83px;
+    width: 1500px;
+    display: flex;
+    position: relative;
+    background-color: #F4F0F8;
+    padding: 83px;
+    display: flex;
+    justify-content: center;
+    gap: 398px;
+}
+#blocks{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: -30px;
+    justify-content: flex-end;
+    background-color: #ffffff;
+}
+#YeloBlock{
+    height: 30px;
+    background-color: #FFD050;
+    width: 842px;
+    margin-left: 299px;
+}
+#PurpBlock{
+    height: 30px;
+    background-color: #592EA9;
+    width: 282px;
+}
+#bigText{
+    margin-bottom: 20px;
+}
+#ReadMore{
+    color: #592EA9;
+}
+
+
+
+
+
+
+
+
+
